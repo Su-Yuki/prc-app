@@ -2,6 +2,10 @@
 <link href="{{ asset('css/view.css') }}" rel="stylesheet">
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -77,5 +81,6 @@
             @yield('content')
         </main>
     </div>
+    @yield('js')
 </body>
 </html>
