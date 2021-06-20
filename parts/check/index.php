@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
 <body>
-<form action="./branch.php">
+<form action="./branch.php" method="post">
     <input type="text" naem="text">
     <button type="submit">確認する</button>
 </form>    
