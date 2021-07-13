@@ -1,6 +1,6 @@
 <?php 
 // ファイルの読み込み
-require_once('db.php');
+require_once('dbconnect.php');
 
 $stmt = $dbh->prepare('SELECT count(*) AS count_table FROM view');
 $stmt->execute();
